@@ -1,10 +1,4 @@
 <?php
-error_reporting(-1); # Report all PHP errors
-ini_set('display_errors', 1);
-?>
-
-
-<?php
  
 $wordList = file('wordList.txt');
 $wordCount = 0;
