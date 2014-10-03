@@ -1,6 +1,5 @@
-p2
-==
 Courtney Walsh - P2 - xkcd Password Generator
+==
 
 Live URL http://p2.courtnewalsh15.me
 
