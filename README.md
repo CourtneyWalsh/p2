@@ -10,4 +10,5 @@ Demo:<br>
 Will be doing a live demo on October 8, 2014 during section.
 
 Outside code:<br>
-Background image created by: Chud Tsankov www.HitToon.com/1169056 Word List created by: SIL International Linguistics Department http://www-01.sil.org/linguistics/wordlists/english/
+Background image created by: Chud Tsankov www.HitToon.com/1169056 <br>
+Word List created by: SIL International Linguistics Department http://www-01.sil.org/linguistics/wordlists/english/
