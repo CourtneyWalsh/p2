@@ -1,7 +1,7 @@
 Courtney Walsh - P2 - xkcd Password Generator
 ==
 
-Live URL http://p2.courtneywalsh15.me
+Live URL http://p2.courtneywalsh15.com
 
 Description:<br>
 Password on a Platter is a password generator, which creates a random xkcd password for user. A xkcd password has four words and is generated based on the xkcrd comic. My generator offers the users the ability to choose different aspects of their desired password much like you would a meal at a restaurant. Choices include the number of words in their password, and whether or not they would these words in upper or lower case, a symbol, and/or a number.
