@@ -14,20 +14,16 @@ $numbers = array(1, 2, 3, 4, 5, 6, 7, 8, 9);
 //Number of words
 for ($i = 0; $i < $_POST["wordCount"]; $i++) 
 	{
-      $password = $password . " " . $wordList[rand(0, count($wordList) - 1)];
-      
-    }
+      $listOfWords = $password . " " . $wordList[rand(0, count($wordList) - 1)];  
+	  $password = $listOfWords;
+	}
 
 //Uppercase
 if(isset($_POST["addUpper"]))
 	{
-	foreach ($password as $wordList => $word) 
-		{
-			$password[$wordList] = ucfirst($word);
-		}
+      $password = ucwords($listOfWords);
 	}
-
-//Choosing random number
+//Adding a number
 if(isset($_POST["addNumber"]))
 	{
 	shuffle($numbers);
@@ -35,7 +31,7 @@ if(isset($_POST["addNumber"]))
 	}
 else $numbers = '';   
 
-//Choosing random symbol
+//Adding a symbol
 if(isset($_POST["addSymbol"]))
 	{
 	shuffle($symbols);

@@ -15,23 +15,23 @@ ini_set('display_errors', 1);
 </head>
 
 <body>
-	<div class="passwordBox">
+	<div class="password">
 	<?=$password?>
 	</div>
 
 	<div class="container">
 	<form method="POST">
-		<label for="wordCount">How many words would you like your password to be? </label>
+		<label for="wordCount">How many words would you like your password to be? (Max 9) </label>
 		<input type="text" name="wordCount" id="wordCount"> <br>
 		
-		<label for="addUpper">Would you like to start off your password with an uppercase letter? </label>
+		<label for="addUpper">Would your words to start with an uppercase letter? </label>
 		<input type="checkbox" id="addUpper" name="addUpper" value="addUpper"> <br>
 		
 		<label for="addNumber">Would you like a number added?</label>
 		<input type="checkbox" id="addNumber" name="addNumber" value="addNumber"><br>		
 		<label for="addSymbol">How about a symbol? </label>
 		<input type="checkbox" id="addSymbol" name="addSymbol" value="addSymbol"><br>
-		<input type="submit" class="" value="Order Up!">
+		<input type="submit" class="button" value="Order Up!">
 	</form>
 	</div>
 </body>
